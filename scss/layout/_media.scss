@@ -1,0 +1,356 @@
+@media screen and (max-width: 1250px) {
+
+  .top-header__search-wrapper {
+    width:300px;
+  }
+  .header-nav__shop-items_max {
+    display: none;
+  }
+
+  .top-header__number {
+    font-size:20px;
+  }
+
+  .top-header__phone-description-wrapper {
+    width:350px;
+  }
+
+  .header-nav__shop-items_min {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+  }
+
+  .header-nav__main-menu {
+    width:100%;
+  }
+
+  .header-nav__main-menu-items {
+    justify-content: space-between;
+  }
+
+  .header-nav__sub-items {
+    top:200px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .top-header {
+    padding: 30px 20px 10px;
+  }
+  .top-header__logo {
+    width:176px;
+    height: auto;
+  }
+
+  .top-header__logo-text {
+    width:185px;
+    position: relative;
+    right: 2px;
+  }
+
+  .top-header__title {
+    font-size: 13px;
+    padding-top: 2px;
+  }
+
+  .top-header__search-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    height:30px;
+    width: 220px;
+  }
+
+  .top-header__search {
+    font-size: 10px;
+  }
+
+
+
+  .top-header__search-btn:before {
+      font-size: 15px;
+    position: relative;
+    right:2px;
+    top: 0;
+  }
+
+  .top-header__phone-description-wrapper {
+    width: 235px;
+  }
+
+  .top-header__phone {
+    position: relative;
+    right: 12px;
+  }
+
+  .top-header__number {
+    font-size:16px;
+    padding: 0;
+  }
+
+  .top-header__description {
+    position: relative;
+    bottom: 10px;
+    padding: 0;
+  }
+
+  .top-header__description-text {
+    font-size: 10px;
+  }
+
+  .header-nav {
+    padding:0 16px;
+    height: 50px;
+    margin-bottom: 13px;
+  }
+
+  .header-nav__main-menu-item_link {
+    font-size: 12px;
+  }
+
+  .header-nav__shop-items_min {
+    position: relative;
+    top: 3px;
+     margin: 0;
+    width: 100%;
+  }
+
+  .header-nav__shop-cart:before {
+    font-size: 20px;
+  }
+
+  .header-nav__shop-mount-text,
+  .header-nav__shop-login{
+    font-size: 12px;
+  }
+
+  .header-nav__sub-items {
+    top:156px;
+    left:30px;
+  }
+
+  .slick-slider__img-description {
+    margin-left: 40px;
+    top: 30%;
+    padding: 0 30px 0 20px;
+  }
+
+  h1.slick-slider__img-description-title {
+    font-size: 24px;
+    line-height: 22px;
+    padding:13px 0 13px 0;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 35px;
+    top: 0;
+    right:7px;
+
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .top-header {
+    flex-wrap: wrap;
+  }
+
+  .top-header__search-wrapper {
+    width:50%;
+  }
+
+  .top-header__phone-description-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .top-header__number {
+    padding-top: 9px;
+  }
+
+  .top-header__description {
+    display: none;
+  }
+
+  .top-header__phone {
+    right: 0;
+  }
+
+  .header-nav__shop-items_min {
+    margin:0 10px;
+    width:260px;
+  }
+
+  .header-nav__sub-items {
+    top: 220px;
+  }
+
+  .slick-slider__img-description {
+    top: 20%;
+    margin-left: 70px;
+  }
+
+  .slick-slider__img-description-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .top-header__description {
+    display: none;
+  }
+
+  .header-nav__main-menu-item_link {
+    font-size: 12px;
+  }
+
+  .slick-slider__img-description {
+    margin-left: 50px;
+    padding:0 15px;
+  }
+
+  .slick-slider__img-description-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .main-header-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .wrapper {
+    padding:0;
+  }
+
+  .top-header {
+    padding: 15px 20px 4px;
+  }
+
+  .top-header__logo {
+    width: 192px;
+  }
+
+  .header-nav {
+    margin:0;
+    height: auto;
+    border: none;
+    padding: 0;
+  }
+
+  .header-nav__mobile-menu {
+    display: block;
+    background-color: #f0f1f6;
+    width: 100%;
+  }
+
+  .header-nav__mobile-menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width:100%;
+  }
+
+  .header-nav__mobile-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height:37px;
+    &:first-child {
+      background-color: #3eade2;
+    }
+  }
+
+  .header-nav__mobile-menu-item_link > i.icon {
+    color: $custom-text-color;
+    font-size: 24px;
+  }
+
+  .top-header__phone-description-wrapper,
+  .top-header__search-wrapper,
+  .header-nav__main-menu {
+    display: none;
+  }
+
+  .main-page__slick-slider {
+    margin:0;
+  }
+
+  .slick-slider__img-description {
+    top: 33%;
+    margin-left: 1.8%;
+    padding-left: 8px;
+    padding-right: 24px;
+  }
+
+  h1.slick-slider__img-description-title {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 0;
+  }
+
+  .slick-slider__img {
+    height:130px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    height:27%;
+    width:6.5%;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 30px;
+    left:0;
+  }
+
+
+
+}
+
+  @media screen and (max-width: 420px) {
+
+    .header-nav__mobile-menu-item_link > i.icon {
+      color: $custom-text-color;
+      font-size: 20px;
+    }
+
+    h1.slick-slider__img-description-title {
+      font-size: 16px;
+      line-height: 18px;
+      padding: 5px 0;
+
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+      left:-5px;
+    }
+  }
+
